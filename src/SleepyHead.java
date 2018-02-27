@@ -12,10 +12,15 @@ public class SleepyHead {
         boolean isWeekday, isVacation;
         
         /*
-         * Ask the user for these values using
-         * JOptionPane.showConfirmDialog(null, "is it a weekday?", "",
-         * JOptionPane.YES_NO_OPTION);
-         */
+         * Ask the user for these values using*/
+        int x= JOptionPane.showConfirmDialog(null, "is it a weekday?", "", JOptionPane.YES_NO_OPTION);
+         System.out.println(x);
+        if(x==0) { JOptionPane.showMessageDialog(null,"Wake up lazy bones");
+        }
+        	if(x==1) { JOptionPane.showMessageDialog(null,"Sleep in");
+        		
+        	}
+        
     
 
 
